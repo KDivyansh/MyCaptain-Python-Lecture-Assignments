@@ -1,6 +1,3 @@
-from re import sub
-
-
 subjects = ['python','webtech','java']
 marks = [99,100,90]
 
