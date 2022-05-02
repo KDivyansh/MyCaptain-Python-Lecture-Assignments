@@ -4,11 +4,6 @@ from re import sub
 subjects = ['python','webtech','java']
 marks = [99,100,90]
 
-'''
-#Removes all the elements from the list
-subjects.clear()
-print(subjects)'''
-
 #Returns a copy of the list
 subjects2 =subjects.copy()
 print(subjects2)
@@ -24,7 +19,6 @@ print(count)
 #Add the elements of a list (or any iterable), to the end of the current list
 subjects.extend(marks)
 print(subjects)
-
 
 #Returns the index of the first element with the specified value
 index = subjects.index("java")
@@ -51,3 +45,8 @@ subjects.sort()
 marks.sort()
 print(subjects)
 print(marks)
+
+#Removes all the elements from the list
+subjects.clear()
+print(subjects)
+
